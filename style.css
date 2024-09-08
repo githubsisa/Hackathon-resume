@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #443ad4;
+}
+
+.resume {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #edf1f7;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+
+.profile-photo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    border: 2px solid #443ad4;
+    box-shadow: 0 0 5px #443ad4;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #443ad4;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #e21111;
+    color: rgb(237, 239, 243);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
